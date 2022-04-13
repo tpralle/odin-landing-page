@@ -1,5 +1,3 @@
-<!-- TODO Clean up classes/make code "DRY" -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,94 +18,100 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <div class="container">
-      <div class="header">
-        <div class="logo">Header Logo</div>
-        <div class="header-links">
-          <ul>
-            <a href="http://google.com/">header link one</a>
-            <a href="http://google.com/">header link two</a>
-            <a href="http://google.com/">header link three</a>
-          </ul>
-        </div>
+    <div class="index-container">
+      <div class="page-header">
+        <div class="page-header__logo logo">Header Logo</div>
+        <ul class="page-header__links links">
+          <a href="http://google.com/">link one</a>
+          <a href="http://google.com/">link two</a>
+          <a href="http://google.com/">link three</a>
+        </ul>
       </div>
 
-      <div class="hero">
-        <!-- TODO refactor with better syntax for media objects -->
-        <div class="hero-content">
-          <div class="hero-header">This Website is awesome</div>
-          <div class="hero-subtext">
+      <div class="page-hero">
+        <div class="page-hero__content">
+          <div class="page-hero__title title">This Website is awesome</div>
+          <div class="page-hero__subtext subtext">
             This website has some subtext that goes here under the main title.
             It's a smaller font and the color is lower contrast
           </div>
-          <div class="hero-button">Sign up</div>
+          <div class="page-hero__button button">Sign up</div>
         </div>
-        <div class="hero-image">image</div>
+        <div class="page-hero__image image">
+          <img
+            src="./images/alexander-popov-JhYnL-BiP18-unsplash.jpg"
+            alt="Photo by <a href='https://unsplash.com/@5tep5?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Alexander Popov</a> on <a href='https://unsplash.com/s/photos/techno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
+          />
+        </div>
       </div>
 
-      <div class="info">
-        <div class="header">Some random information.</div>
-        <div class="content">
-          <div class="card">
+      <div class="page-info">
+        <div class="page-info__title title">Some random information.</div>
+        <div class="page-info__content">
+          <div class="page-info__card card">
             <img
               src="./images/janko-ferlic-sfL_QOnmy00-unsplash.jpg"
               alt="Photo by <a href='https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>🇸🇮 Janko Ferlič</a> on <a href='https://unsplash.com/s/photos/learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
             />
-            <div class="text">
+            <div class="page-info__subtext subtext">
               this is some subtext under an illustration or image
             </div>
           </div>
-          <div class="card">
+          <div class="page-info__card card">
             <img
               src="./images/hope-house-press-leather-diary-studio-IOzk8YKDhYg-unsplash.jpg"
               alt="Photo by <a href='https://unsplash.com/@hope_house_press_leather_diary_studio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Hope House Press - Leather Diary Studio</a> on <a href='https://unsplash.com/s/photos/learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
             />
-            <div class="text">
+            <div class="page-info__subtext subtext">
               this is some subtext under an illustration or image
             </div>
           </div>
-          <div class="card">
+          <div class="page-info__card card">
             <img
               src="./images/cdd20-eVboxPoX1iU-unsplash.jpg"
               alt="Photo by <a href='https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>愚木混株 cdd20</a> on <a href='https://unsplash.com/s/photos/learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
             />
-            <div class="text">
+            <div class="page-info__subtext subtext">
               this is some subtext under an illustration or image
             </div>
           </div>
-          <div class="card">
+          <div class="page-info__card card">
             <img
               src="./images/cdd20-NfgOueIe2TE-unsplash.jpg"
               alt="Photo by <a href='https://unsplash.com/@cdd20?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>愚木混株 cdd20</a> on <a href='https://unsplash.com/s/photos/learning?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>"
             />
-            <div class="text">
+            <div class="page-info__subtext subtext">
               this is some subtext under an illustration or image
             </div>
           </div>
         </div>
       </div>
 
-      <div class="quote">
-        <div class="quote-text">
+      <div class="page-quote">
+        <div class="page-quote__text text">
           This is an inspiring quote, or a testimonial from a customer. Maybe
           it's just filling up space, or maybe people will actually read it. Who
           knows? All i know is that it looks nice.
         </div>
-        <div class="quote-attribute">-Thor, God of Thunder</div>
+        <div class="page-quote__attribute">-Thor, God of Thunder</div>
       </div>
 
-      <div class="call-to-action">
-        <div class="cta-content">
-          <div class="cta-header">Call to action! It's time!</div>
-          <div class="cta-body">
+      <div class="page-cta">
+        <div class="page-cta__container">
+        <div class="page-cta__content">
+          <div class="page-cta__header header">Call to action! It's time!</div>
+          <div class="page-cta__subtext subtext">
             Sign up for our product by clicking that button right over there!
           </div>
         </div>
-        <div class="cta-button">Sign up</div>
+        <div class="page-cta__button button">Sign up</div>
+        </div>
       </div>
 
-      <div class="footer">
-        <div class="footer-text">Copyright &copy; The Odin Project 2021</div>
+      <div class="page-footer">
+        <div class="page-footer__text text">
+          Copyright &copy; The Odin Project 2021
+        </div>
       </div>
     </div>
   </body>
